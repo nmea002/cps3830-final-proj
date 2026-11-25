@@ -1,0 +1,17 @@
+# MIND dataset (3.2 GB, files exceed GitHub's 100 MB limit; MSR license)
+dataset MIND/
+
+# Cloned Microsoft MIND repo (has its own .git — would become a broken embedded repo)
+MIND/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
